@@ -34,5 +34,5 @@ def index_sort(array):
 
     return sorted_list
 
-a = [random.randint(-10000,10000) for x in range(1000000)]
-b = index_sort(a)
+unsorted_list = [random.randint(-10000,10000) for x in range(1000000)]
+sorted_list = index_sort(unsorted_list)
